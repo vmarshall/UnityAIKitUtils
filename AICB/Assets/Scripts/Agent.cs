@@ -1,0 +1,93 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine.WSA;
+
+public class Agent : MonoBehaviour
+{
+	public bool blendWeight = false;
+	public bool blendPriority = false;
+	public float priorityThreshold = 0.2f;
+	public bool blendPipeline = false;
+
+	public float orientation;
+	public float rotation;
+	public Vector3 velocity;
+	protected Steering steering;
+	public float maxSpeed;
+	public float maxAccel;
+	public float maxRotation;
+	public float maxAngularAccel;
+	// Use this for initialization
+	void Start()
+	{
+		velocity = Vector3.zero;
+		steering = new Steering();
+	}
+
+	public void SetSteering(Steering steering)
+	{
+		this.steering = steering;
+	}
+
+	public void SetSteering(Steering steering, float weight)
+	{
+		this.steering.linear += (weight * steering.linear);
+		this.steering.angular += (weight * steering.angular);
+	}
+
+	//	public void SetSteering(Steering steering, int priority)
+	//	{
+	//		if (!groups.ContainsKey(priority))
+	//			{
+	//				groups.Add(priority, new List<Steering>());
+	//			}
+	//		groups [priority].Add(steering);
+	//	}
+
+	public void SetSteering(Steering steering, bool pipeline)
+	{
+		if (!pipeline)
+			{
+				this.steering = steering;
+				return;
+			}
+	}
+
+	public virtual void Update()
+	{
+
+		Vector3 displacement = velocity * Time.deltaTime;
+		orientation += rotation * Time.deltaTime;
+
+		// limit to 0 to 360
+
+		if (orientation < 0.0f)
+			{
+				orientation += 360.0f;
+
+			} else if (orientation > 360.0f)
+			{
+				orientation -= 360.0f;
+
+			}
+		transform.Translate(displacement, Space.World);
+		transform.rotation = new Quaternion();
+		transform.Rotate(Vector3.up, orientation);
+	}
+
+	public virtual void LateUpdate()
+	{
+		velocity += steering.linear * Time.deltaTime;
+		rotation += steering.angular * Time.deltaTime;
+
+		if (velocity.magnitude > maxSpeed)
+			{
+
+			}
+		if (steering.linear.sqrMagnitude == 0.0f)
+			{
+				velocity = Vector3.zero;
+			}
+		steering = new Steering();
+	}
+}
