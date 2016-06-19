@@ -50,6 +50,7 @@ public class AgentBehaviour : MonoBehaviour
 		Vector3 vector = Vector3.zero;
 		vector.x = Mathf.Sin(orientation * Mathf.Deg2Rad) * 1.0f;
 		vector.z = Mathf.Cos(orientation * Mathf.Deg2Rad) * 1.0f;
+		Debug.Log("O: " + vector.normalized);
 		return vector.normalized;
 	}
 }
