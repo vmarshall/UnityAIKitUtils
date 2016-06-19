@@ -1,8 +1,4 @@
-﻿// SceneDumper.cs
-//
-// History:
-// version 1.0 - December 2010 - Yossarian King
- 
+﻿
 using StreamWriter = System.IO.StreamWriter;
  
 using UnityEngine;
