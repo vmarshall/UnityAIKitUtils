@@ -45,6 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scratch\DK_EDITOR\DKBuildProjectDirectories.cs" />
+     <Compile Include="Assets\Scratch\DK_EDITOR\DKCreateHexLattice.cs" />
+     <Compile Include="Assets\Scratch\DK_EDITOR\DKCreatePlane.cs" />
+     <Compile Include="Assets\Scratch\DK_EDITOR\DKDumpScene.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AgentBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\Align.cs" />
      <Compile Include="Assets\Scripts\Behaviours\Arrive.cs" />
