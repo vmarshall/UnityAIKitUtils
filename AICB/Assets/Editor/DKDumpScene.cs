@@ -31,7 +31,7 @@ public static class DKSceneDumper
 
 		// TODO Clean Up bloody paths
 
-		string filename = "Assets/DK_DEBUG/DUMP/dumped-scene.txt";
+		string filename = "Assets/Scratch/dumped-scene.txt";
 
 		Debug.Log("Dumping scene to " + filename + " ...");
 		using (StreamWriter writer = new StreamWriter(filename, false))
