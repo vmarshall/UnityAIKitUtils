@@ -35,13 +35,7 @@ public class Agent : MonoBehaviour
 		this.steering.angular += (weight * steering.angular);
 	}
 
-	//	public void SetSteering(Steering steering, int priority)
-	//	{
-	//		if (!groups.ContainsKey(priority))
-	//			{
-	//				groups.Add(priority, new List<Steering>());
-	//			}
-	//		groups [priority].Add(steering);
+
 	//	}
 
 	public void SetSteering(Steering steering, bool pipeline)
