@@ -5,6 +5,8 @@ Project("{6342F8D6-2D56-3304-7CBB-5A4A6B814AF5}") = "AICB", "Assembly-CSharp.csp
 EndProject
 Project("{6342F8D6-2D56-3304-7CBB-5A4A6B814AF5}") = "AICB", "Assembly-CSharp-Editor.csproj", "{5CC7A082-2058-ADD7-4A5D-EDF5CF80D40A}"
 EndProject
+Project("{6342F8D6-2D56-3304-7CBB-5A4A6B814AF5}") = "AICB", "Assembly-UnityScript.unityproj", "{511CE241-0A3F-9CC9-92A0-ACA623B3402C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{5CC7A082-2058-ADD7-4A5D-EDF5CF80D40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC7A082-2058-ADD7-4A5D-EDF5CF80D40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC7A082-2058-ADD7-4A5D-EDF5CF80D40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511CE241-0A3F-9CC9-92A0-ACA623B3402C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511CE241-0A3F-9CC9-92A0-ACA623B3402C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511CE241-0A3F-9CC9-92A0-ACA623B3402C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511CE241-0A3F-9CC9-92A0-ACA623B3402C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

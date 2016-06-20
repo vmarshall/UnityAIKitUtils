@@ -19,6 +19,7 @@ obj/
 *.user
 *.unityproj
 *.booproj
+*.psd
 
 ============
 OS generated
@@ -31,7 +32,7 @@ OS generated
 ehthumbs.db
 Thumbs.db
 
-AICB/Assets/TMP_IMPORT.meta
+AICB/Assets/Imported/
 
 
 ===============
@@ -69,3 +70,7 @@ Thumbs.db
 AICB/Assets/TMP_IMPORT.meta
 
 *.cs~
+
+AICB/Assets/Imported/QuickCutsceneCreator/Demo/Animations/Animator Controllers/OtherAnimator.controller.meta
+
+AICB/Assets/Imported/*

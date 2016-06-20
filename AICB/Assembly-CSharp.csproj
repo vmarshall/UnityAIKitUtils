@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -45,10 +45,90 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scratch\DK_EDITOR\DKBuildProjectDirectories.cs" />
-     <Compile Include="Assets\Scratch\DK_EDITOR\DKCreateHexLattice.cs" />
-     <Compile Include="Assets\Scratch\DK_EDITOR\DKCreatePlane.cs" />
-     <Compile Include="Assets\Scratch\DK_EDITOR\DKDumpScene.cs" />
+     <Compile Include="Assets\Imported\Arkham Interactive\Industrial\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\Imported\Helicopter\Scripts\Checkpoint.cs" />
+     <Compile Include="Assets\Imported\Helicopter\Scripts\CheckpointController.cs" />
+     <Compile Include="Assets\Imported\Helicopter\Scripts\ControlPanel.cs" />
+     <Compile Include="Assets\Imported\Helicopter\Scripts\FollowTargetCamera.cs" />
+     <Compile Include="Assets\Imported\Helicopter\Scripts\HeliRotorController.cs" />
+     <Compile Include="Assets\Imported\Helicopter\Scripts\HelicopterController.cs" />
+     <Compile Include="Assets\Imported\Helicopter\Scripts\LookAtTargetController.cs" />
+     <Compile Include="Assets\Imported\Helicopter\Scripts\PressedKeyCode.cs" />
+     <Compile Include="Assets\Imported\Helicopter\Scripts\UIGameController.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiButton.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiElementsList.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiGauge.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiInputText.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiList.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiPopup.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiSlider.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiTabs.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiTextArea.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiToggle.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\Elements\InstantGuiWindow.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\InstantGui.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\InstantGuiElement.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\InstantGuiFrame.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\InstantGuiStyle.cs" />
+     <Compile Include="Assets\Imported\InstantGui\Scripts\InstantGuiStyleSet.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Demo\Scripts\QCDebugLine.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Demo\Scripts\QCDemoBroadcastMessageReceiver.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Demo\Scripts\QCDemoStartScript.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Demo\Scripts\QCJoystickToEvents.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Demo\Scripts\QCLocomotion.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Demo\Scripts\QCLocomotionPlayer.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Demo\Scripts\QCScreenshotMovieScript.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Demo\Scripts\QCSequentialPlayer.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Demo\Scripts\QCTargetFrameRate.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Demo\Scripts\QCTriggerScript.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Scripts\Helper\QCBezier.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Scripts\Helper\QCComponentMember.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Scripts\QCAnimationAddon.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Scripts\QCLegacyAnimationAddon.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Scripts\QCNavigatorAddon.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Scripts\QCSceneViewCameraFollow.cs" />
+     <Compile Include="Assets\Imported\QuickCutsceneCreator\Scripts\QuickCutsceneController.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Cameras\Scripts\AutoCam.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneAiControl.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneAudio.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneController.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Aircraft\Scripts\LandingGear.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Car\Scripts\CarController.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
+     <Compile Include="Assets\Imported\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+     <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Scripts\AddGUISkin.cs" />
+     <Compile Include="Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AgentBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\Align.cs" />
      <Compile Include="Assets\Scripts\Behaviours\Arrive.cs" />
@@ -56,10 +136,34 @@
      <Compile Include="Assets\Scripts\Behaviours\Leave.cs" />
      <Compile Include="Assets\Scripts\Behaviours\Pursue.cs" />
      <Compile Include="Assets\Scripts\Behaviours\Seek.cs" />
+     <Compile Include="Assets\Scripts\ChangeColor.cs" />
      <Compile Include="Assets\Scripts\DataTypes\Agent.cs" />
      <Compile Include="Assets\Scripts\DataTypes\Face.cs" />
      <Compile Include="Assets\Scripts\DataTypes\Flee.cs" />
      <Compile Include="Assets\Scripts\DataTypes\Steering.cs" />
+     <Compile Include="Assets\Scripts\DragMe.cs" />
+     <Compile Include="Assets\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Scripts\DropMe.cs" />
+     <Compile Include="Assets\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Scripts\TiltWindow.cs" />
+     <None Include="Assets\Scratch\dumped-scene.txt" />
+     <None Include="Assets\Imported\Movinarc\PackageUninstaller\README.txt" />
+     <None Include="Assets\Imported\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\FONTS\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Imported\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\Imported\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\Imported\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Imported\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Imported\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\Imported\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\Imported\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Imported\SOOMLA Storefronts Pack - Portrait\Dress Up\fonts\LICENSE.txt" />
+     <None Include="Assets\Imported\DualCorStudios\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/UnityBeta/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

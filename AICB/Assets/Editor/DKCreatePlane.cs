@@ -124,7 +124,7 @@ public class DKCreatePlane : ScriptableWizard
 		// Mesh m = (Mesh)AssetDatabase.LoadAssetAtPath("Assets/Editor/" + planeAssetName, typeof(Mesh));
 
 		// TODO CleanUp these paths
-		Mesh m = (Mesh)AssetDatabase.LoadAssetAtPath("Assets/DK_DEBUG/DUMP/" + planeAssetName, typeof(Mesh));
+		Mesh m = (Mesh)AssetDatabase.LoadAssetAtPath("Assets/Scratch" + planeAssetName, typeof(Mesh));
 
  
 		if (m == null)
@@ -206,7 +206,7 @@ public class DKCreatePlane : ScriptableWizard
 				m.RecalculateNormals();
  
 				// AssetDatabase.CreateAsset(m, "Assets/Editor/" + planeAssetName);
-				AssetDatabase.CreateAsset(m, "Assets/DK_DEBUG/DUMP/" + planeAssetName);
+				AssetDatabase.CreateAsset(m, "Assets/Scratch/" + planeAssetName);
 
 				AssetDatabase.SaveAssets();
 			}
